@@ -1,0 +1,178 @@
+:root{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+}
+body{
+    text-align: center;
+    margin: 0;
+}
+/* Navbar section */
+.navbar{
+    
+    background-color: #FD6F96;
+    border-bottom-left-radius: 1rem;
+    text-align: left;
+    display: block;
+    justify-content:space-between;
+    margin: 0px 75px 75px;
+    padding: 16px;
+    
+}
+.brand{
+  
+   font-weight: bolder;
+   font-size: larger;
+   line-height:1;
+   color: #fff;
+   margin-top: 50px; 
+}
+a{
+    
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bolder;
+}
+.link{
+    display: block;
+    color:#fff;
+    text-align: right;
+    list-style: none;
+    margin-right: 20px;
+   
+}
+.nav-list{
+    color: #fff;
+    display: inline;
+    text-decoration: none;
+    padding: 32px;
+}
+.nav-link{
+    color: #fff;
+}
+.navbar .nav-link-active{
+    font-weight: bold;
+}
+/* Header */
+.hero-img{
+    width: 300px;
+    height: 300px;
+}
+
+/* skills */
+#skills{
+    background-color: ghostwhite;
+    border-radius: 0.75rem;
+    margin: 50px 30%;
+    padding: 20px;
+    line-height: 1.5;  
+}
+
+
+/* projects setcions */
+#projects{
+   
+    border-radius: 0.75rem;
+    margin:50px 30%;
+    padding: 20px;
+    line-height: 1.5;
+}
+.primary-btn{
+    background-color: #FD6F96;
+    border-radius: 10px;
+font-size: bold;
+margin: 10px;
+    padding: 10px;
+}
+span{
+    color: #FD6F96;
+}
+/* blogs section */
+#blogs{
+    background-color:ghostwhite;
+    border-radius: 0.75rem;
+    margin:50px 30%;
+    padding: 20px;
+    line-height: 1.5;
+}
+.blog-btn{
+    border: #FD6F96;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 8px;
+}
+/* footer section */
+.footer{
+    background-color: #FD6F96;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    color:#FFF8E5;
+    margin:75px 75px 0px ;
+    padding: 16px;
+}
+
+
+
+/* responsive */
+@media (max-width:1156px) {
+   body{
+       text-align: center;
+   }
+   .navbar{
+    
+   
+    border-bottom-left-radius: 1rem;
+    text-align: left;
+    display: block;
+    justify-content:space-between;
+    margin: 0px 10px 10px;
+    padding: 5px;
+    
+}
+.nav-list{
+    
+    display: inline;
+    text-decoration: none;
+    padding: 20px;
+}
+#skills{
+    
+    
+    margin: 20px 10%;
+    padding: 20px;
+    line-height: 1.5;  
+}
+#projects{
+   
+    
+    margin:2px 10%;
+    padding: 20px;
+    line-height: 1.5;
+}
+#blogs{
+    
+    margin:20px 10%;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.footer{
+    
+    text-align: center;
+    border-top-right-radius: 1rem;
+    color:#FFF8E5;
+    margin:10px 10px 0px ;
+    padding: 5px;
+}
+.primary-btn{
+    
+margin: 1px;
+    padding: 5px;
+}
+.blog-btn{
+    margin: 5px;
+    padding: 5px;
+}
+}
