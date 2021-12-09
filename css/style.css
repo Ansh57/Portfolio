@@ -40,7 +40,7 @@ a:hover{
     text-align: right;
     list-style: none;
     margin-right: 20px;
-   
+    
 }
 .nav-list{
     color: #fff;
@@ -127,7 +127,7 @@ span{
     text-align: left;
     display: block;
     justify-content:space-between;
-    margin: 0px 10px 10px;
+    margin: 0px 5px 10px 5px;
     padding: 5px;
     
 }
